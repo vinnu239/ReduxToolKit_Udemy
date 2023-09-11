@@ -3,7 +3,6 @@ import classes from "./Notification.module.css";
 import { useState } from "react";
 
 const Notification = (props) => {
-  //let specialClasses = "";
   const [isNotify, setIsNotify] = useState(false);
   const [specialClasses, setSpecialClasses] = useState("");
 
